@@ -9,9 +9,7 @@ TD_Cisco/
 ├── 📄 README.md               # Explication du projet et instructions
 ├── 📂 doc/                    # Fichiers de référence et compte-rendu
 │   ├── TD_Cisco_Pratique2.pdf # Le fichier PDF du TP
-│   ├── TD_Cisco.md            # Version Markdown du TP
-│   ├── schema.png             # Schéma du réseau
-│   └── notes.md               # Notes supplémentaires
+│   └── schema.png             # Schéma du réseau
 ├── 📂 configurations/         # Fichiers de configuration des switches
 │   ├── config_switch.txt      # Config du premier switch
 │   ├── reset_switch.txt       # Reset du switch
