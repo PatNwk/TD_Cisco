@@ -1,0 +1,10 @@
+enable
+configure terminal
+interface Vlan1
+ip address 192.0.0.211 255.255.255.0
+no shutdown
+exit
+interface GigabitEthernet0/1
+exit
+copy tftp: flash:
+archive download-sw /overwrite /reload tftp://192.0.0.100/c2960-lanbasek9-tar.150-2.SE.tar

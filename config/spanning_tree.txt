@@ -1,0 +1,6 @@
+enable
+configure terminal
+spanning-tree mode rapid-pvst
+spanning-tree vlan 1 priority 24577
+exit
+write memory

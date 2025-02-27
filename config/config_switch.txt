@@ -1,0 +1,18 @@
+enable
+configure terminal
+hostname Switch_Cisco
+no ip domain-lookup
+service password-encryption
+banner motd #Bienvenue sur Switch_Cisco - Accès Restreint#
+line console 0
+password cisco
+login
+exit
+line vty 0 4
+password cisco
+login
+transport input ssh
+ip domain-name ynov.sophia
+crypto key generate rsa
+exit
+write memory

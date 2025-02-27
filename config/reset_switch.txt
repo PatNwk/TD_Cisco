@@ -1,0 +1,3 @@
+enable
+write erase
+reload
